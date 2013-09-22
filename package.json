@@ -1,6 +1,7 @@
 {
-  "name": "phpGuard",
+  "name": "phpguard",
   "description": "File watcher and test runner for PHP.",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/fraszczakszymon/phpGuard.git"
@@ -21,7 +22,7 @@
   "author": "Szymon Frąszczak <fraszczak.szymon@gmail.com>",
   "main": "./lib/main",
   "bin": {
-    "phpGuard": "./bin/phpGuard"
+    "phpguard": "./bin/phpguard"
   },
   "dependencies": {
     "watchr": "2.4.*"
