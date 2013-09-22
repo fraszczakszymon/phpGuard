@@ -1,6 +1,6 @@
 {
   "name": "phpGuard",
-  "description": "Test Runner for PHP.",
+  "description": "File watcher and test runner for PHP.",
   "repository": {
     "type": "git",
     "url": "git://github.com/fraszczakszymon/phpGuard.git"
@@ -19,28 +19,16 @@
     "testing"
   ],
   "author": "Szymon Frąszczak <fraszczak.szymon@gmail.com>",
+  "main": "./lib/main",
+  "bin": {
+    "phpGuard": "./bin/phpGuard"
+  },
   "dependencies": {
-    "di": "~0.0.1",
-    "socket.io": "~0.9.13",
-    "chokidar": "~0.6",
-    "glob": "~3.1.21",
-    "minimatch": "~0.2",
-    "http-proxy": "~0.10",
-    "optimist": "~0.3",
-    "coffee-script": "~1.6",
-    "rimraf": "~2.1",
-    "q": "~0.9",
-    "colors": "0.6.0-1",
-    "lodash": "~1.1",
-    "mime": "~1.2",
-    "log4js": "~0.6.3",
-    "useragent": "~2.0.4",
-    "graceful-fs": "~1.2.1",
-    "connect": "~2.8.4"
+    "watchr": "2.4.*"
   },
-  "main": "./main.js",
+  "devDependencies": {},
+  "optionalDependencies": {},
   "engines": {
-    "node": "~0.8 || ~0.10"
-  },
-  "version": "0.1"
+    "node": "*"
+  }
 }
