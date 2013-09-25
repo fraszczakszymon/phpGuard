@@ -1,0 +1,8 @@
+{
+  "baseNamespacePath": "src",
+  "testTypes": {
+    "fast": "phpunit --colors"
+  },
+  "defaultType": "fast",
+  "delayBetweenTests": 500
+}

@@ -25,7 +25,8 @@
     "phpguard": "./bin/phpguard"
   },
   "dependencies": {
-    "watchr": "2.4.*"
+    "watchr": "2.4.*",
+    "commander": "2.0.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
