@@ -5,7 +5,7 @@ A simple tool that executes tests for php files, which has changed. Searching fi
 ## Instalation
 
 ```
-Will be available soon (by npm).
+npm install [-g] phpguard
 ```
 
 ## Dependencies
