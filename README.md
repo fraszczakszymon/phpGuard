@@ -14,6 +14,27 @@ watchr
 commander
 ```
 
+## Configuration
+
+phpguard.config.json
+``` json
+{
+  "baseNamespacePath": "src",
+  "testTypes": {
+    "fast": "phpunit --colors"
+  },
+  "defaultType": "fast",
+  "delayBetweenTests": 500
+}
+```
+
+Legend:
+
+* __baseNamespace__ - Path where php files are stored, it should be defined to root of defined namespaces.
+* __testTypes__ - Array with command that will be executed after running phpguard with --test (-t) flag, feel free to add your own commands (at the end of command are added paths to tests, that should be run).
+* __defaultType__ - Default test type, that should be executed, when you are running phpguard without --test (-t) flag.
+* __delayBetweenTests__ - Deley between running tests if files are changing frequently. Bugfix for issue when you are working on remote server (sometimes files saves twice, etc.), feel free to set it to 0 value.
+
 ## License 
 
 (The MIT License)
