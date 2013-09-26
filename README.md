@@ -14,6 +14,19 @@ watchr
 commander
 ```
 
+## Usage
+
+```
+Usage: phpguard [options]
+
+Options:
+
+  -h, --help          output usage information
+  -V, --version       output the version number
+  -i, --init          creates local configuration
+  -t, --test [value]  type of phpunit test (defined in configuration)
+```
+
 ## Configuration
 
 phpguard.config.json
